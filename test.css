@@ -1,0 +1,38 @@
+*{
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  font: optional;
+  text-decoration: line;
+  text-transform: uppercase;
+}
+.box{
+  width: 100%;
+  height: 70px;
+  background-color: red;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  justify-content: space-around;
+}
+.item{
+  width: 30%;
+  height: 50px;
+  background-color: blue;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: absolute;
+}
